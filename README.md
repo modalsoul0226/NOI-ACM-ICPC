@@ -85,9 +85,9 @@ int main()
 }
 ```
 <p align="center"><em>程序2-11 数据统计（fopen版）</em></p>
-程序2-10中， 重定向的部分被写在了#ifdef和#endif中。其含义是：只有定义了符号LOCAL才编译两条freopen语句，否则仍为读写输入输出。</br>
-重定向和fopen两种方法各有优劣。重定向的方法写起来简单、自然，但是不能同时读写文件和标准输入输出（因为IO已被重定向至文件）。fopen的写法稍显繁琐，但是灵活性
-较大。另外，如果想把fopen版本的程序改成读写标准输入输出，只需赋值“fin = stdin; fout = stdout;”即可，无需再调用fopen和fclose。
+
+程序2-10中， 重定向的部分被写在了`#ifdef`和`#endif`中。其含义是：只有定义了符号`LOCAL`才编译两条`freopen`语句，否则仍为读写输入输出。</br>
+重定向和`fopen`两种方法各有优劣。重定向的方法写起来简单、自然，但是不能同时读写文件和标准输入输出（因为IO已被重定向至文件）。`fopen`的写法稍显繁琐，但是灵活性较大。另外，如果想把`fopen`版本的程序改成读写标准输入输出，只需赋值`fin = stdin; fout = stdout;`即可，无需再调用`fopen`和`fclose`。
 
 
 > 提示2-27： 当嵌套的两个代码块中有同名变量时， 内层的变量会屏蔽外层变量，有时会引起十分隐蔽的错误。
@@ -96,4 +96,4 @@ int main()
 ## 第三章 数组和字符串
 
 ### 3.1 数组
-如果要从数组a复制k个元素（`integer`）到数组b，可以使用`memcpy(b, a, sizeof(int) * k)`。当然， 如果数组a和b都是浮点型的，复制时要写成`memcpy(b, a, sizeof(double) * k)`。另外需要注意的是， 使用`memcpy`函数要包含`string.h`。如果需要把数组a全部复制到数组b中， 可直接写成 memcpy(b, a, sizeof(a))。
+如果要从数组a复制k个元素（`integer`）到数组b，可以使用`memcpy(b, a, sizeof(int) * k)`。当然， 如果数组a和b都是浮点型的，复制时要写成`memcpy(b, a, sizeof(double) * k)`。另外需要注意的是， 使用`memcpy`函数要包含`string.h`。如果需要把数组a全部复制到数组b中， 可直接写成 `memcpy(b, a, sizeof(a))`。
