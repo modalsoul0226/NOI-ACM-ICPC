@@ -16,7 +16,7 @@ int main()
         scanf("%d", remainder_list + 1);
         scanf("%d", remainder_list + 2);
 
-        if (kase) printf("\n\n");
+        if (kase) printf("\n");
 
         for (int i = 10; i <= 100; i++) {
             if (i % 3 == remainder_list[0] && 
