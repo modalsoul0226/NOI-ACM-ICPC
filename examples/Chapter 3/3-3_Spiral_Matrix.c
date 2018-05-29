@@ -10,7 +10,7 @@ int main(int argc, char **argv)
     int matrix[size][size];
     memset(matrix, 0, sizeof(matrix));
     
-    int num = 1, row = 0, col = 0;
+    int num = 1, row = 0, col = -1;
     while (num <= size * size)
     { 
 #ifdef DEBUG
@@ -19,16 +19,16 @@ int main(int argc, char **argv)
         while (col >= 0   && !matrix[row][col]) { printf("while 3 - [%d, %d]: %d\n", row, col, num); matrix[row][col--] = num++;} col++;row--;
         while (row >= 0   && !matrix[row][col]) { printf("while 4 - [%d, %d]: %d\n", row, col, num); matrix[row--][col] = num++;} col++;row++;
 #else
-        while (col < size && !matrix[row][col]) { matrix[row][col++] = num++;} col--;row++;
-        while (row < size && !matrix[row][col]) { matrix[row++][col] = num++;} col--;row--;
-        while (col >= 0   && !matrix[row][col]) { matrix[row][col--] = num++;} col++;row--;
-        while (row >= 0   && !matrix[row][col]) { matrix[row--][col] = num++;} col++;row++;
+        while (col+1 < size && !matrix[row][col+1]) { matrix[row][++col] = num++;} 
+        while (row+1 < size && !matrix[row+1][col]) { matrix[++row][col] = num++;} 
+        while (col > 0   && !matrix[row][col-1]) { matrix[row][--col] = num++;} 
+        while (row > 0   && !matrix[row-1][col]) { matrix[--row][col] = num++;} 
 #endif
     }
 
     for (int i = 0; i < size; i++)
     {
-        for (int j = 0; j < size; j++) { if (j) printf(" "); printf("%d", matrix[i][j]);}
+        for (int j = 0; j < size; j++) { if (j) printf(" "); printf("%2d", matrix[i][j]);}
         printf("\n");
     }
 
