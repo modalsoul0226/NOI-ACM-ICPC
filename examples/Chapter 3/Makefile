@@ -1,6 +1,9 @@
 FLAGS = -Wall -g
 
-all: 3-2_Lights 3-3_Spiral_Matrix
+all: 3-2_Lights 3-3_Spiral_Matrix 3-4_Multiplication
+
+3-4_Multiplication: 3-4_Multiplication.o
+	gcc $(FLAGS) -o $@ $^
 
 3-2_Lights: 3-2_Lights.o
 	gcc $(FLAGS) -o $@ $^
@@ -12,4 +15,4 @@ all: 3-2_Lights 3-3_Spiral_Matrix
 	gcc -Wall -g -c $<
 
 clean : 
-	rm -f *.o 3-2_Lights 3-3_Spiral_Matrix
+	rm -f *.o 3-2_Lights 3-3_Spiral_Matrix 3-4_Multiplication
