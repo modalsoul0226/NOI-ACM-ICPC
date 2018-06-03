@@ -97,3 +97,5 @@ int main()
 
 ### 3.1 数组
 如果要从数组a复制k个元素（`integer`）到数组b，可以使用`memcpy(b, a, sizeof(int) * k)`。当然， 如果数组a和b都是浮点型的，复制时要写成`memcpy(b, a, sizeof(double) * k)`。另外需要注意的是， 使用`memcpy`函数要包含`string.h`。如果需要把数组a全部复制到数组b中， 可直接写成 `memcpy(b, a, sizeof(a))`。
+
+> 提示3-9： scanf("%s", s) 遇到空白字符会停下来。
