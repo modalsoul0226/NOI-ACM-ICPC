@@ -1,11 +1,11 @@
-LIBS  = -lm
-CFLAGS = -Wall -g -std=gnu99
+SRCS = $(wildcard *.c)
+LIBS = -lm
+PROGS = $(patsubst %.c,%,$(SRCS))
 
-# Compile all c files under this dir.
-SRC=$(wildcard *.c)
+all: $(PROGS)
 
-test: $(SRC) 
-	gcc -o $@ $^ $(CFLAGS) $(LIBS)
+%: %.c
+	$(CC) $(CFLAGS) -o $@ $< $(LIBS)
 
 clean:
-	rm -f test
+	rm -f $(PROGS)
