@@ -81,7 +81,7 @@ int main()
 #include <string.h>
 
 int main() {
-    char s[10], buf[18]; int count = 0;
+    char s[10], buf[20]; int count = 0;
     scanf("%s", s);
 
     for (int abc = 111; abc <= 999; abc++)
