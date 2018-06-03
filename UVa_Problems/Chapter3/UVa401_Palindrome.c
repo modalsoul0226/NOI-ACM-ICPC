@@ -14,14 +14,16 @@ int main() {
         int start = 0, m = 1, p = 1;
 
         while (start <= end) {
+            // Check whether the current 2 chars are mirrored.
             if ('A' <= buf[start] && buf[start] <= 'Z')
                 { if (alph_tab[buf[start] - 'A'] != buf[end]) m = 0; }
             else
                 { if (d_tab[buf[start] - '1'] != buf[end]) m = 0; }
             
+            // Check whether the current 2 chars are matched.
             if (buf[start++] != buf[end--]) p = 0;
         }
-
+        
         printf("%s -- is %s.\n\n", buf, msg[m * 2 + p]);
     }
 }
