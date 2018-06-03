@@ -71,3 +71,36 @@ int main()
 ```
 
 <p align="center"><em>程序3-3 蛇型填空</em></p></br></br>
+
+</br></br>
+**Ex. 3-4** 竖式问题。 找出所有形如`abc×de`（三位数乘两位数）的算式， 使得在完整的竖式中， 所有数字都属于
+一个特定的数字合集
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+    char s[10], buf[18]; int count = 0;
+    scanf("%s", s);
+
+    for (int abc = 111; abc <= 999; abc++)
+        for (int de = 11; de <= 99; de++) {
+            int x = abc * (de % 10), y = abc * (de / 10), z = abc * de;
+            sprintf(buf, "%d%d%d%d%d", abc, de, x, y, z);
+            
+            int ok = 1;
+            for (int i = 0; i < strlen(buf); i++) 
+                if (!strchr(s, buf[i])) ok = 0;
+            
+            if (ok) {
+                printf("<%d>\n", ++count);
+                printf("%5d\nX%4d\n-----\n%5d\n%4d\n-----\n%5d\n\n", abc, de, x, y, z);
+            }
+        }
+    printf("The number of solutions: %d\n", count);
+    return 0;
+}
+```
+
+<p align="center"><em>程序3-4 竖式问题</em></p></br></br>
