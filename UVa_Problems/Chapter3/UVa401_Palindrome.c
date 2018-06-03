@@ -6,6 +6,7 @@
 int main() {
     char buf[MAX_LEN]; memset(buf, 0, sizeof(buf));
     char *alph_tab = "A   3  HIL JM O   2TUVWXY5"; char *d_tab = "1SE Z  8 ";
+    char *msg[] = {"not a palindrome", "a regular palindrome", "a mirrored string", "a mirrored palindrome"};
 
     while (fgets(buf, MAX_LEN, stdin)) {
         int end = buf[strlen(buf) - 1] == '\n' ? strlen(buf) - 2 : strlen(buf) - 1;
@@ -20,10 +21,7 @@ int main() {
             
             if (buf[start++] != buf[end--]) p = 0;
         }
-        
-        if (!p && !m) printf("%s -- is not a palindrome.\n\n", buf);
-        else if (p && m) printf("%s -- is a mirrored palindrome.\n\n", buf);
-        else if (p) printf("%s -- is a regular palindrome.\n\n", buf);
-        else printf("%s -- is a mirrored string.\n\n", buf);
+
+        printf("%s -- is %s.\n\n", buf, msg[m * 2 + p]);
     }
 }
