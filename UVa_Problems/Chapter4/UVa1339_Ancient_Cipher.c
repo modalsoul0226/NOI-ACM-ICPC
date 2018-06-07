@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define CODE_SIZE 101
-#define DICT_SIZE 26
+#define ALPHA_SIZE 26
 
 
 /**
@@ -30,22 +30,22 @@ int main() {
         scanf("%s", text);
         
         // Initialize the dictionary.
-        int dict_c[DICT_SIZE]; memset(dict_c, 0, sizeof(dict_c));
-        int dict_t[DICT_SIZE]; memset(dict_t, 0, sizeof(dict_t));
+        int dict_c[ALPHA_SIZE]; memset(dict_c, 0, sizeof(dict_c));
+        int dict_t[ALPHA_SIZE]; memset(dict_t, 0, sizeof(dict_t));
         for (int i = 0; i < strlen(code); i++) {
             dict_c[code[i] - 'A']++;
             dict_t[text[i] - 'A']++;
         }
 
         // Sort the dictionary according to the frequency.
-        qsort(dict_c, DICT_SIZE, sizeof(int), cmp);
-        qsort(dict_t, DICT_SIZE, sizeof(int), cmp);
+        qsort(dict_c, ALPHA_SIZE, sizeof(int), cmp);
+        qsort(dict_t, ALPHA_SIZE, sizeof(int), cmp);
 
         // Check whether the first line (code) can be the result of
         // the text after encrypting (substitution + permutation).
         int i;
-        for (i = 0; i < DICT_SIZE; i++)
+        for (i = 0; i < ALPHA_SIZE; i++)
             if (dict_c[i] != dict_t[i]) { printf("NO\n"); break; }
-        if (i == DICT_SIZE) printf("YES\n");
+        if (i == ALPHA_SIZE) printf("YES\n");
     }
 }
