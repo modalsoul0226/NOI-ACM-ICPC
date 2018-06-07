@@ -23,16 +23,17 @@ int main() {
             
             // A selects the next person.
             for (int i = 0; i < step_a - 1; i++) {
-                idx_a = (idx_a + 1) % n;
-                while (!group[idx_a]) idx_a = (idx_a + 1) % n;
+                do {
+                    idx_a = (idx_a + 1) % n;
+                } while (!group[idx_a]);
             }
 
             // B selects the next person.
             for (int i = 0; i < step_b - 1; i++) {
-                comp_b = (comp_b + 1) % n;
-                idx_b = n - 1 - comp_b;
-                while (!group[idx_b])
-                    { comp_b = (comp_b + 1) % n; idx_b = n - 1 - comp_b; }
+                do {
+                    comp_b = (comp_b + 1) % n;
+                    idx_b = n - 1 - comp_b;
+                } while (!group[idx_b]);
             }
             // printf("idx_a:%d idx_b:%d\n", idx_a, idx_b);
 
