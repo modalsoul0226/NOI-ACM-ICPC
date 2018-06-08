@@ -6,25 +6,14 @@
  * has length 1, and the longest
  * has length 7.
  */ 
-char *encode_tab[8];
+char encode_tab[8][1 << 8];
 
 /**
  * Initialize the encode table.
  */
 void init_tab() {
-    encode_tab[0] = NULL;
-
-    for (int i = 1; i < 8; i++) {
-        int nmemb = (1 << i) - 1;
-        encode_tab[i] = (char *)malloc(nmemb * sizeof(char)); 
-        memset(encode_tab[i], 0, nmemb * sizeof(char));
-    }
+    memset(encode_tab, 0, sizeof(encode_tab));
     // encode_tab[1][0] = getchar();
-}
-
-
-void free_tab() {
-    for (int i = 1; i < 8; i++) free(encode_tab[i]);
 }
 
 
@@ -32,16 +21,15 @@ void free_tab() {
  * Read the header into encode table.
  */
 int read_header() {
-    // int n; while ((n = getchar()) == '\n');
-    int n;
-    do n = getchar();
+    init_tab();
+
+    int n; do n = getchar();
     while (n == '\n' || n == '\r');
     encode_tab[1][0] = n;
 
     for (int i = 2; i < 8; i++) {
         int nmemb = (1 << i) - 1;
         // printf("size: %d\n", nmemb);
-        memset(encode_tab[i], 0, nmemb * sizeof(char));
 
         for (int j = 0; j < nmemb; j++) {
             char temp = getchar();
@@ -51,6 +39,8 @@ int read_header() {
             else encode_tab[i][j] = temp;
         }
     }
+
+    return 0;
 }
 
 /**
@@ -89,7 +79,6 @@ int main() {
 
     for (;;) {
         if (read_header()) break;
-
     #ifdef DEBUG
         printf("Header:\n");
         for (int i = 1; i < 8; i++)
@@ -116,6 +105,5 @@ int main() {
         // if (len == -1) break;
     }
 
-    free_tab();
     return 0;
 }

@@ -65,26 +65,30 @@ void init_tab() {
     memset(encode_tab, 0, sizeof(encode_tab));
 }
 
+int read_char() {
+    int n; do n = getchar();
+    while (n == '\n' || n == '\r');
+
+    return n;
+}
 
 /**
  * Read the header into encode table.
  */
 int read_header() {
     // int n; while ((n = getchar()) == '\n');
-    int n; do n = getchar();
-    while (n == '\n' || n == '\r');
-    encode_tab[1][0] = n;
+    memset(encode_tab, 0, sizeof(encode_tab));
+    encode_tab[1][0] = read_char();
 
     for (int i = 2; i < 8; i++) {
         int nmemb = (1 << i) - 1;
         // printf("size: %d\n", nmemb);
-        memset(encode_tab[i], 0, sizeof(encode_tab[i]));
 
         for (int j = 0; j < nmemb; j++) {
             char temp = getchar();
             
-            if (temp == '\n' || temp == '\r') return 0;
-            else if (temp == EOF) return 1;
+            if (temp == '\n' || temp == '\r') return 1;
+            else if (temp == EOF) return 0;
             else encode_tab[i][j] = temp;
         }
     }
@@ -98,18 +102,7 @@ int read_num(int size) {
     int res = 0;
     for (int i = 0; i < size; i++) {
         // Spins when encountering new line char.
-        int n; do n = getchar(); 
-        while (n == '\n' || n == '\r');
-        // while ((n = getchar()) == '\n');
-        // printf("%c\n", n);
-        // if (n != '1' && n != '0') {
-        //     if (n == EOF) return -2;
-
-        //     memset(encode_tab[1], 0, sizeof(encode_tab[1]));
-        //     encode_tab[1][0] = n;
-        //     return -1;
-        // }
-        // if (n == EOF) return -1;
+        int n = read_char();
         res += (1 << (size - i - 1)) * (n - '0');
     }
     
@@ -123,8 +116,7 @@ int main() {
 
     init_tab();
 
-    for (;;) {
-        if (read_header()) break;
+    while (read_header()) {
 
     #ifdef DEBUG
         printf("Header:\n");
