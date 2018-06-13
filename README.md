@@ -141,3 +141,28 @@ int main() {
 
 如果在参数名之前加一个`&`符号， 就表示这个参数按照传引用（by reference）的方式传递， 而不是`C`语言中传值（by value）的方式传递。 这样， 在函数内改变
 参数的值， 也会修改到函数的实参。
+
+### 5.1.3 字符串
+
+```C++
+#include <iostream>
+#include <string>
+#include <sstream>
+using namespace std;
+
+int main() {
+    string line;
+    while (getline(cin, line)) {
+        int sum = 0, x;
+        stringstream ss(line);
+        while (ss >> x) sum += x;
+        cout << sum << "\n";
+    }
+
+    return 0;
+}
+
+```
+<p align="center"><em>stringstream 示例</em></p>
+
+虽然`string`和 `sstream`都很方便， 但`string`很慢， `sstream`更慢， 应谨慎使用。
