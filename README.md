@@ -166,3 +166,39 @@ int main() {
 <p align="center"><em>stringstream 示例</em></p>
 
 虽然`string`和 `sstream`都很方便， 但`string`很慢， `sstream`更慢， 应谨慎使用。
+
+### 5.1.4 结构体
+`C++`中可以有一个或者多个构造函数， 在声明变量时调用。 `C++`中的函数参数可以拥有默认值。 在`C++`结构体
+的成员函数中， `this`是指向当前对象的指针。
+
+```C++
+#include <iostream>
+using namespace std;
+
+struct Point {
+    int x, y;
+    Point(x=0, y=0):x(x), y(y) {}
+    // Point(x=0, y=0) {
+    //    this->x = x; this->y = y;
+    // }
+};
+
+Point operator + (const Point& A, const Point& B) {
+    return Point(A.x + B.x, A.y + B.y);
+}
+
+ostream& operator << (ostream& out, const Point& P) {
+    out << "(" << P.x << P.y << ")";
+    return out;
+}
+
+int main() {
+    Point a, b(1, 2);
+    a.x = 3;
+    cout << a+b << "\n";
+
+    return 0;
+}
+
+```
+<p align="center"><em>结构体 示例</em></p>
