@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter5/UVa10474_Where_is_the_Marble.cpp
+cstdio
+-
+iostream
+-
+algorithm
+-
+

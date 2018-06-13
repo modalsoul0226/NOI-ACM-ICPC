@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/UVa10474.dir/UVa10474_Where_is_the_Marble.cpp.o  -o UVa10474 
