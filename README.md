@@ -238,4 +238,6 @@ int main() {
 }
 
 ```
-<p align="center"><em>结构体 示例</em></p>
+<p align="center"><em>模板 示例</em></p>
+
+### 5.2 STL初步
