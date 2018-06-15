@@ -240,4 +240,22 @@ int main() {
 ```
 <p align="center"><em>模板 示例</em></p>
 
-### 5.2 STL初步
+## 5.2 STL初步
+### 5.2.5 栈、队列与优先队列
+在一些特殊情况下， 需要使用自定义方式比较优先级， 例如， 要实现一个“个位数大的整数优先级反而小”的优先队列， 可以定义一个结构体
+`cmp`， 重载“（）”运算符， 使其“看上去”像是一个函数， 然后用`priority_queue<int, vector<int>, cmp> pq`的方式定义。下面
+是这个`cmp`的定义：
+
+```C++
+struct cmp {
+    bool operator () (const int a, const int b) const {
+        // a的优先级比b小时返回true
+        return a % 10 >  b % 10;
+    }
+} 
+```
+
+对于一些常见的优先队列， STL提供了更为简单的定义方式， 例如， “越小的整数优先级越大的优先队列”可以写成`priority_queue<int, vector<int>, greater<int> > pq`。 注意， 最后两个“>”不要写在一起， 否则会被很多编译器误认为是位移运算符。
+
+> 提示5-16： STL的queue头文件提供了优先队列， 用`priority_queue<int> s`方式定义， 用`push`和`pop`进行元素的入队和出队操作， `top`
+取队首元素。
