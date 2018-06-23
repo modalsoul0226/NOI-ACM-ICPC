@@ -1,0 +1,3 @@
+/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir
