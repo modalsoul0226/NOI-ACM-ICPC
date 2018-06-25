@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa11988_Broken_Keyboard.cpp
+iostream
+-
+cstdio
+-
+cstdlib
+-
+string
+-
+cstring
+-
+cassert
+-
+

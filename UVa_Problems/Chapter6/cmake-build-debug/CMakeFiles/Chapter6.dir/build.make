@@ -57,119 +57,93 @@ include CMakeFiles/Chapter6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter6.dir/flags.make
 
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o: CMakeFiles/Chapter6.dir/flags.make
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o: ../UVa210_Concurrency_Simulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa210_Concurrency_Simulator.cpp
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o: CMakeFiles/Chapter6.dir/flags.make
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o: ../UVa11988_Broken_Keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa11988_Broken_Keyboard.cpp
 
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa210_Concurrency_Simulator.cpp > CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.i
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa11988_Broken_Keyboard.cpp > CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.i
 
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa210_Concurrency_Simulator.cpp -o CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.s
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa11988_Broken_Keyboard.cpp -o CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.s
 
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.requires:
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.requires:
 
-.PHONY : CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.requires
+.PHONY : CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.requires
 
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.provides.build
-.PHONY : CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.provides
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.provides.build
+.PHONY : CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.provides
 
-CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o
-
-
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o: CMakeFiles/Chapter6.dir/flags.make
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o: ../UVa442_Matrix_Chain_Multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa442_Matrix_Chain_Multiplication.cpp
-
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa442_Matrix_Chain_Multiplication.cpp > CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.i
-
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa442_Matrix_Chain_Multiplication.cpp -o CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.s
-
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.requires:
-
-.PHONY : CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.requires
-
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.provides.build
-.PHONY : CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.provides
-
-CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o
+CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o
 
 
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o: CMakeFiles/Chapter6.dir/flags.make
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o: ../UVa514_Rails.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa514_Rails.cpp
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o: CMakeFiles/Chapter6.dir/flags.make
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o: ../UVa679_Dropping_Balls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa679_Dropping_Balls.cpp
 
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa514_Rails.cpp > CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.i
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa679_Dropping_Balls.cpp > CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.i
 
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa514_Rails.cpp -o CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.s
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa679_Dropping_Balls.cpp -o CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.s
 
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.requires:
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.requires:
 
-.PHONY : CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.requires
+.PHONY : CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.requires
 
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.provides.build
-.PHONY : CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.provides
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.provides.build
+.PHONY : CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.provides
 
-CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o
+CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o
 
 
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o: CMakeFiles/Chapter6.dir/flags.make
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o: ../UVa12657_Boxes_in_a_Line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa12657_Boxes_in_a_Line.cpp
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o: CMakeFiles/Chapter6.dir/flags.make
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o: ../UVa122_Tree_on_the_Level.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o -c /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa122_Tree_on_the_Level.cpp
 
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa12657_Boxes_in_a_Line.cpp > CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.i
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa122_Tree_on_the_Level.cpp > CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.i
 
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa12657_Boxes_in_a_Line.cpp -o CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.s
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa122_Tree_on_the_Level.cpp -o CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.s
 
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.requires:
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.requires:
 
-.PHONY : CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.requires
+.PHONY : CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.requires
 
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.provides.build
-.PHONY : CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.provides
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.provides: CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.provides.build
+.PHONY : CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.provides
 
-CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o
+CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.provides.build: CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o
 
 
 # Object files for target Chapter6
 Chapter6_OBJECTS = \
-"CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o" \
-"CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o" \
-"CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o" \
-"CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o"
+"CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o" \
+"CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o" \
+"CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o"
 
 # External object files for target Chapter6
 Chapter6_EXTERNAL_OBJECTS =
 
-Chapter6: CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o
-Chapter6: CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o
-Chapter6: CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o
-Chapter6: CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o
+Chapter6: CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o
+Chapter6: CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o
+Chapter6: CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o
 Chapter6: CMakeFiles/Chapter6.dir/build.make
 Chapter6: CMakeFiles/Chapter6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Chapter6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Chapter6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chapter6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,10 +151,9 @@ CMakeFiles/Chapter6.dir/build: Chapter6
 
 .PHONY : CMakeFiles/Chapter6.dir/build
 
-CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o.requires
-CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o.requires
-CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o.requires
-CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o.requires
+CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o.requires
+CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o.requires
+CMakeFiles/Chapter6.dir/requires: CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o.requires
 
 .PHONY : CMakeFiles/Chapter6.dir/requires
 

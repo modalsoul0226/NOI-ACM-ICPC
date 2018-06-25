@@ -4,10 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa12657_Boxes_in_a_Line.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o"
-  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa210_Concurrency_Simulator.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o"
-  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa442_Matrix_Chain_Multiplication.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o"
-  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa514_Rails.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o"
+  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa11988_Broken_Keyboard.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o"
+  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa122_Tree_on_the_Level.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o"
+  "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/UVa679_Dropping_Balls.cpp" "/home/xinze/Desktop/NOI-ACM-ICPC/UVa_Problems/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -123,113 +123,86 @@ Chapter6/fast:
 	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/build
 .PHONY : Chapter6/fast
 
-UVa12657_Boxes_in_a_Line.o: UVa12657_Boxes_in_a_Line.cpp.o
+UVa11988_Broken_Keyboard.o: UVa11988_Broken_Keyboard.cpp.o
 
-.PHONY : UVa12657_Boxes_in_a_Line.o
-
-# target to build an object file
-UVa12657_Boxes_in_a_Line.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o
-.PHONY : UVa12657_Boxes_in_a_Line.cpp.o
-
-UVa12657_Boxes_in_a_Line.i: UVa12657_Boxes_in_a_Line.cpp.i
-
-.PHONY : UVa12657_Boxes_in_a_Line.i
-
-# target to preprocess a source file
-UVa12657_Boxes_in_a_Line.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.i
-.PHONY : UVa12657_Boxes_in_a_Line.cpp.i
-
-UVa12657_Boxes_in_a_Line.s: UVa12657_Boxes_in_a_Line.cpp.s
-
-.PHONY : UVa12657_Boxes_in_a_Line.s
-
-# target to generate assembly for a file
-UVa12657_Boxes_in_a_Line.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.s
-.PHONY : UVa12657_Boxes_in_a_Line.cpp.s
-
-UVa210_Concurrency_Simulator.o: UVa210_Concurrency_Simulator.cpp.o
-
-.PHONY : UVa210_Concurrency_Simulator.o
+.PHONY : UVa11988_Broken_Keyboard.o
 
 # target to build an object file
-UVa210_Concurrency_Simulator.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o
-.PHONY : UVa210_Concurrency_Simulator.cpp.o
+UVa11988_Broken_Keyboard.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o
+.PHONY : UVa11988_Broken_Keyboard.cpp.o
 
-UVa210_Concurrency_Simulator.i: UVa210_Concurrency_Simulator.cpp.i
+UVa11988_Broken_Keyboard.i: UVa11988_Broken_Keyboard.cpp.i
 
-.PHONY : UVa210_Concurrency_Simulator.i
+.PHONY : UVa11988_Broken_Keyboard.i
 
 # target to preprocess a source file
-UVa210_Concurrency_Simulator.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.i
-.PHONY : UVa210_Concurrency_Simulator.cpp.i
+UVa11988_Broken_Keyboard.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.i
+.PHONY : UVa11988_Broken_Keyboard.cpp.i
 
-UVa210_Concurrency_Simulator.s: UVa210_Concurrency_Simulator.cpp.s
+UVa11988_Broken_Keyboard.s: UVa11988_Broken_Keyboard.cpp.s
 
-.PHONY : UVa210_Concurrency_Simulator.s
+.PHONY : UVa11988_Broken_Keyboard.s
 
 # target to generate assembly for a file
-UVa210_Concurrency_Simulator.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.s
-.PHONY : UVa210_Concurrency_Simulator.cpp.s
+UVa11988_Broken_Keyboard.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.s
+.PHONY : UVa11988_Broken_Keyboard.cpp.s
 
-UVa442_Matrix_Chain_Multiplication.o: UVa442_Matrix_Chain_Multiplication.cpp.o
+UVa122_Tree_on_the_Level.o: UVa122_Tree_on_the_Level.cpp.o
 
-.PHONY : UVa442_Matrix_Chain_Multiplication.o
+.PHONY : UVa122_Tree_on_the_Level.o
 
 # target to build an object file
-UVa442_Matrix_Chain_Multiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o
-.PHONY : UVa442_Matrix_Chain_Multiplication.cpp.o
+UVa122_Tree_on_the_Level.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o
+.PHONY : UVa122_Tree_on_the_Level.cpp.o
 
-UVa442_Matrix_Chain_Multiplication.i: UVa442_Matrix_Chain_Multiplication.cpp.i
+UVa122_Tree_on_the_Level.i: UVa122_Tree_on_the_Level.cpp.i
 
-.PHONY : UVa442_Matrix_Chain_Multiplication.i
+.PHONY : UVa122_Tree_on_the_Level.i
 
 # target to preprocess a source file
-UVa442_Matrix_Chain_Multiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.i
-.PHONY : UVa442_Matrix_Chain_Multiplication.cpp.i
+UVa122_Tree_on_the_Level.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.i
+.PHONY : UVa122_Tree_on_the_Level.cpp.i
 
-UVa442_Matrix_Chain_Multiplication.s: UVa442_Matrix_Chain_Multiplication.cpp.s
+UVa122_Tree_on_the_Level.s: UVa122_Tree_on_the_Level.cpp.s
 
-.PHONY : UVa442_Matrix_Chain_Multiplication.s
+.PHONY : UVa122_Tree_on_the_Level.s
 
 # target to generate assembly for a file
-UVa442_Matrix_Chain_Multiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.s
-.PHONY : UVa442_Matrix_Chain_Multiplication.cpp.s
+UVa122_Tree_on_the_Level.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.s
+.PHONY : UVa122_Tree_on_the_Level.cpp.s
 
-UVa514_Rails.o: UVa514_Rails.cpp.o
+UVa679_Dropping_Balls.o: UVa679_Dropping_Balls.cpp.o
 
-.PHONY : UVa514_Rails.o
+.PHONY : UVa679_Dropping_Balls.o
 
 # target to build an object file
-UVa514_Rails.cpp.o:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o
-.PHONY : UVa514_Rails.cpp.o
+UVa679_Dropping_Balls.cpp.o:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o
+.PHONY : UVa679_Dropping_Balls.cpp.o
 
-UVa514_Rails.i: UVa514_Rails.cpp.i
+UVa679_Dropping_Balls.i: UVa679_Dropping_Balls.cpp.i
 
-.PHONY : UVa514_Rails.i
+.PHONY : UVa679_Dropping_Balls.i
 
 # target to preprocess a source file
-UVa514_Rails.cpp.i:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.i
-.PHONY : UVa514_Rails.cpp.i
+UVa679_Dropping_Balls.cpp.i:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.i
+.PHONY : UVa679_Dropping_Balls.cpp.i
 
-UVa514_Rails.s: UVa514_Rails.cpp.s
+UVa679_Dropping_Balls.s: UVa679_Dropping_Balls.cpp.s
 
-.PHONY : UVa514_Rails.s
+.PHONY : UVa679_Dropping_Balls.s
 
 # target to generate assembly for a file
-UVa514_Rails.cpp.s:
-	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.s
-.PHONY : UVa514_Rails.cpp.s
+UVa679_Dropping_Balls.cpp.s:
+	$(MAKE) -f CMakeFiles/Chapter6.dir/build.make CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.s
+.PHONY : UVa679_Dropping_Balls.cpp.s
 
 # Help Target
 help:
@@ -240,18 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Chapter6"
-	@echo "... UVa12657_Boxes_in_a_Line.o"
-	@echo "... UVa12657_Boxes_in_a_Line.i"
-	@echo "... UVa12657_Boxes_in_a_Line.s"
-	@echo "... UVa210_Concurrency_Simulator.o"
-	@echo "... UVa210_Concurrency_Simulator.i"
-	@echo "... UVa210_Concurrency_Simulator.s"
-	@echo "... UVa442_Matrix_Chain_Multiplication.o"
-	@echo "... UVa442_Matrix_Chain_Multiplication.i"
-	@echo "... UVa442_Matrix_Chain_Multiplication.s"
-	@echo "... UVa514_Rails.o"
-	@echo "... UVa514_Rails.i"
-	@echo "... UVa514_Rails.s"
+	@echo "... UVa11988_Broken_Keyboard.o"
+	@echo "... UVa11988_Broken_Keyboard.i"
+	@echo "... UVa11988_Broken_Keyboard.s"
+	@echo "... UVa122_Tree_on_the_Level.o"
+	@echo "... UVa122_Tree_on_the_Level.i"
+	@echo "... UVa122_Tree_on_the_Level.s"
+	@echo "... UVa679_Dropping_Balls.o"
+	@echo "... UVa679_Dropping_Balls.i"
+	@echo "... UVa679_Dropping_Balls.s"
 .PHONY : help
 
 

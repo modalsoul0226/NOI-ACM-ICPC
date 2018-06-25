@@ -4,6 +4,4 @@ project(Chapter6)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Chapter6
-        UVa210_Concurrency_Simulator.cpp
-        UVa442_Matrix_Chain_Multiplication.cpp
-        UVa514_Rails.cpp UVa12657_Boxes_in_a_Line.cpp)
+        UVa11988_Broken_Keyboard.cpp UVa679_Dropping_Balls.cpp UVa122_Tree_on_the_Level.cpp)

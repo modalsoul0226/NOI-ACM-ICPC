@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter6.dir/UVa210_Concurrency_Simulator.cpp.o"
-  "CMakeFiles/Chapter6.dir/UVa442_Matrix_Chain_Multiplication.cpp.o"
-  "CMakeFiles/Chapter6.dir/UVa514_Rails.cpp.o"
-  "CMakeFiles/Chapter6.dir/UVa12657_Boxes_in_a_Line.cpp.o"
+  "CMakeFiles/Chapter6.dir/UVa11988_Broken_Keyboard.cpp.o"
+  "CMakeFiles/Chapter6.dir/UVa679_Dropping_Balls.cpp.o"
+  "CMakeFiles/Chapter6.dir/UVa122_Tree_on_the_Level.cpp.o"
   "Chapter6.pdb"
   "Chapter6"
 )
