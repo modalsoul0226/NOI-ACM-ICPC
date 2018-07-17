@@ -259,3 +259,50 @@ struct cmp {
 
 > 提示5-16： STL的queue头文件提供了优先队列， 用`priority_queue<int> s`方式定义， 用`push`和`pop`进行元素的入队和出队操作， `top`
 取队首元素。
+
+---
+## 第七章 暴力求解法
+
+### 7.2 枚举排列
+
+```C++
+void print_permutation(int n, int *A, int cur) {
+    if (cur == n) {
+        for (int i = 0; i < n; i++) printf("%d ", A[i]);
+        printf("\n");
+    }
+
+    else for (int i = 1; i <= n; i++) { //尝试在A[cur]中填入各种整数i
+        int ok = 1;
+        for (int j = 0; j < cur; j++)
+            if (A[j] == i) ok = 0;      //如果i已经在之前出现过，则不能再选
+        if (ok) {
+            A[cur] = i;
+            print_permutation(n, A, cur + 1);
+        }
+    }
+}
+```
+<p align="center"><em>生成 1～n 的排列</em></p>
+
+```C++
+void print_permutation_v2(int n, int *P, int *A, int cur) {
+    if (cur == n) {
+        for (int i = 0; i < n; i++) printf("%d ", A[i]);
+        printf("\n");
+    }
+
+    else for (int i = 0; i < n; i++) {
+        if (i && P[i] == P[i - 1])
+            continue;
+        int c1 = 0, c2 = 0;
+        for (int j = 0; j < cur; j++) if (A[j] == P[i]) c1++;
+        for (int j = 0; j < n; j++) if (P[j] == P[i]) c2++;
+        if (c1 < c2) {
+            A[cur] = P[i];
+            print_permutation_v2(n, P, A, cur + 1);
+        }
+    }
+}
+```
+<p align="center"><em>生成可重集的排列</em></p>
