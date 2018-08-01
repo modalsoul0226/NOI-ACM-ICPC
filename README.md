@@ -283,7 +283,7 @@ void print_permutation(int n, int *A, int cur) {
     }
 }
 ```
-<p align="center"><em>生成 1～n 的排列</em></p>
+<p align="center"><em>生成 1～n 的排列</em></p></br>
 
 ```C++
 void print_permutation_v2(int n, int *P, int *A, int cur) {
@@ -305,4 +305,67 @@ void print_permutation_v2(int n, int *P, int *A, int cur) {
     }
 }
 ```
-<p align="center"><em>生成可重集的排列</em></p>
+<p align="center"><em>生成可重集的排列</em></p></br>
+
+
+### 7.3 子集生成
+---
+### 7.3.1 增量构造法
+```C++
+void print_subset(int n, int *A, int cur) {
+    for (int i = 0; i < cur; i++) printf("%d ", A[i]);
+    printf("\n");
+
+    int s = cur ? A[cur - 1] + 1 : 0;
+    for (int i = s; i < n; i++) {
+        A[cur] = i;
+        print_subset(n, A, cur + 1);
+    }
+}
+```
+<p align="center"><em>增量构造法</em></p></br>
+
+---
+### 7.3.2 位向量法
+```C++
+void print_subset(int n, int *B, int cur) {
+    if (cur == n) {
+        for (int i = 0; i < cur; i++)
+            if (B[i]) printf("%d ", i);
+        printf("\n");
+        return;
+    }
+
+    B[cur] = 1;
+    print_subset(n, B, cur + 1);
+    
+    B[cur] = 0;
+    print_subset(n, B, cur + 1);
+}
+```
+<p align="center"><em>位向量法</em></p></br>
+
+---
+### 7.3.3 二进制法
+|  | A | B | A and B | A or B | A xor B |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 二进制 | 10110 | 01100 | 00100 | 11110 | 11010 |
+| 集合 | {1,2,4} | {2,3} | {2} | {1,2,3,4} | {1,3,4} |
+| 操作 | 集合A | 集合B | 交集 | 并集 | 对称差 |
+
+
+```C++
+void print_subset(int n, int s) {
+    for (int i = 0; i < n; i++)
+        if (s & (1<<i)) print("%d ", i);
+    printf("\n");
+}
+
+void subset(int n) {
+    for (int i = 0; i < (1<<n); i++)
+        print_subset(n, i);
+}
+```
+<p align="center"><em>二进制法</em></p>
+
+> 提示 7-8： 从代码量看， 枚举子集的最简单方法是二进制法。
